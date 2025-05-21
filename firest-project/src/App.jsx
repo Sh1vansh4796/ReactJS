@@ -7,7 +7,10 @@ function App() {
   return (
     <div>
     <h1>React | SG</h1>
-    <Greet/>
+    <Greet person ="Kallu"/>
+    <Greet person ="Mallu"/>
+    <Greet person ="Bulli"/>
+    <Greet person ="Golu"/>
     <Loginform/>
 
     <div>

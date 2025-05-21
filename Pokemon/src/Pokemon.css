@@ -1,0 +1,10 @@
+.Pokemon{
+    border : 1px solid black;
+    width : 300px;
+    align-content : center;
+    text-align : center;
+}
+
+.Pokemon img{
+    width : 150px ;
+}
