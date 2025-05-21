@@ -3,11 +3,14 @@ import Loginform from './Loginform.jsx'
 import Die from './Die.jsx'
 import Listpass from './Listpass.jsx'
 import Doubledice from './Doubledice.jsx'
+import Heading from './Heading.jsx'
+import ColorList from './ColorList.jsx'
 
 function App() {  
 
   return (
     <div>
+    <Heading color = 'red'  text = "Well Hello there "/>
     <h1>React | SG</h1>
     <Greet person ="Kallu"/>
     <Greet person ="Mallu"/>
@@ -31,6 +34,8 @@ function App() {
     <h2>
       <Doubledice/>
     </h2>
+
+    <ColorList color = {['Red','Orange','Purple',"Olive"]}/>
     </div>
 
     
