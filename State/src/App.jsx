@@ -1,12 +1,16 @@
 import './App.css'
-import './App.css'
+import Counter from './Counter.jsx'
+import Toggler from './Toggler.jsx'
 // when data needs to change while working, use state
 // we cannot change props inside function
 
 function App() {
 
   return (
-    s
+    <div>
+    <Counter/>
+    <Toggler/>
+    </div>
   )
 }
 
